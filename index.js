@@ -25,7 +25,8 @@ $('.container-fluid').each(function () {
     }
   });
 
-  $('body').on("click", "#cancel-btn", function () {
+  $('body').on("click", "#cancel-btn", function (e) {
+    e.stopPropagation();
     $(this).parents(".wrapper").find("img").attr("src", "");
     $(this).parents(".wrapper").removeClass("active");
   });
