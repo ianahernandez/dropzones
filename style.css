@@ -15,7 +15,7 @@ html,body{
 
 
 
-.container-fluid  .wrapper{
+.container-fluid  .wrapper {
   position: relative;
   height: auto;
   width: 100%;
@@ -26,6 +26,7 @@ html,body{
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .container-fluid .content {
